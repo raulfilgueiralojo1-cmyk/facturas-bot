@@ -17,9 +17,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Config from environment variables ────────────────────────────────────────
-TELEGRAM_TOKEN       = os.environ["TELEGRAM_TOKEN"]
-GEMINI_API_KEY       = os.environ["GEMINI_API_KEY"]
-GOOGLE_SHEET_ID      = os.environ["GOOGLE_SHEET_ID"]
+TELEGRAM_TOKEN       = os.environ["8209992809:AAEzeqjSjheM2xxU9IXdfsLcz9LTy1vlLfQ"]
+GEMINI_API_KEY       = os.environ["AQ.Ab8RN6J1k3mtsRXrLKewkSIs6R_g9WtuOM6DxvIaK5u3Hb7JLA"]
+GOOGLE_SHEET_ID      = os.environ["1HBzZexYgeUKQchhewEeCiATwr4u1pwUgR_I3AUY7V1c"]
 GOOGLE_CREDENTIALS   = os.environ["GOOGLE_CREDENTIALS"]   # JSON string
 WEBHOOK_URL          = os.environ.get("WEBHOOK_URL", "")  # e.g. https://myapp.railway.app
 PORT                 = int(os.environ.get("PORT", 8080))
